@@ -45,6 +45,7 @@ p {
 p.p-stats {
   font-size: 24px;
   padding: 5px;
+  text-shadow: rgb(0, 0, 0) 5px 0 10px;
 }
 
 .c-tittle > p {
@@ -76,10 +77,10 @@ p.p-stats {
 }
 
 .c-name > .name-pok-jp {
-  color: #224032;
+  color: hsla(152, 31%, 19%, 0.55);
   position: fixed;
-  top: 25vh;
-  left: 14vw;
+  top: 35vh;
+  left: 17vw;
   background-color: transparent;
   font-size: 5rem;
   font-weight: bolder;
@@ -112,6 +113,7 @@ div.c-stats > div.list-stats > .l-stats {
   color: black;
   border: gray solid 1px;
   border-radius: 5px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 img.ico {
