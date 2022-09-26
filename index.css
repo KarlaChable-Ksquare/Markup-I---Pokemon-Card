@@ -104,6 +104,8 @@ div.container > div.container-right > .c-stats {
 }
 
 div.container > div.container-right > .c-stats > .list-stats {
+  display: flex;
+  flex-wrap: wrap;
   padding: 12px;
   border-left: 1px white solid;
 }
@@ -113,6 +115,8 @@ div.c-stats > div.list-stats > .l-stats {
   color: black;
   border: gray solid 1px;
   border-radius: 5px;
+  padding: 4px;
+  margin: 2px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
