@@ -1,0 +1,124 @@
+/*COLORS
+rgb(147,211,179)
+#224032
+#609274
+*/
+html {
+  padding: 5px;
+}
+
+html * {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(147, 211, 179);
+}
+
+body > div.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-self: center;
+  align-items: center;
+  grid-template-rows: auto;
+}
+
+div.container > div.container-left,
+div.container > div.container-right {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  height: 90vh;
+  width: 100%;
+  margin: 15px;
+}
+
+div.container > div.container-left > div.c-pokemon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p.p-stats {
+  font-size: 24px;
+  padding: 5px;
+}
+
+.c-tittle > p {
+  font-weight: bolder;
+}
+
+.c-tittle > p,
+.c-tittle > h2 {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.c-features {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.c-region > .l-region {
+  position: fixed;
+  top: 75vh;
+  left: -4rem;
+  background-color: transparent;
+  transform: rotate(-90deg);
+  width: 12rem;
+}
+
+.c-name > .name-pok-jp {
+  color: #224032;
+  position: fixed;
+  top: 25vh;
+  left: 14vw;
+  background-color: transparent;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+div.container > div.container-right {
+  width: 100%;
+}
+
+div.container > div.container-right > .c-types {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-self: start;
+  align-self: end;
+}
+
+div.container > div.container-right > .c-stats {
+  display: grid;
+  justify-self: start;
+  align-self: start;
+}
+
+div.container > div.container-right > .c-stats > .list-stats {
+  padding: 12px;
+  border-left: 1px white solid;
+}
+
+div.c-stats > div.list-stats > .l-stats {
+  background: whitesmoke;
+  color: black;
+  border: gray solid 1px;
+  border-radius: 5px;
+}
+
+img.ico {
+  height: 50px;
+  padding: 5px;
+}
+
+img.image-pok {
+  height: 250px;
+}
